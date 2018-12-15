@@ -1,0 +1,109 @@
+
+body {
+  background:white;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  color:black;
+  height:100%;
+  text-align:center;
+  font-size: 18px;
+}
+
+.wrappper{
+  clear: both;
+  display: inline-flex;
+  width:100%;
+  margin:0 auto;
+  grid-template-columns: repeat(auto-fit, 100px);
+}
+
+
+canvas{
+  color:white;
+  border: white dashed 2px;
+  padding:15px;
+  text-align: center;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+   margin:5px 0;
+}
+
+h1 {
+	font-size: 2.6em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+p{
+  font-size: 1.6em;
+  clear: both;
+}
+
+#alphabet {
+  clear: both;
+  display: inline-flex;
+  margin:15px auto;
+  padding:0;
+  width:100%;
+}
+
+#alphabet li {
+  float:left;
+  margin: 0 10px 10px 0;
+  list-style:none;
+  width:30%;
+  height:30%;
+  padding-top:2px;
+  background:#ffffff;
+  color: black;
+  cursor:pointer;
+  border: solid 1px #00ffff;
+    
+}
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display:block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size:1.6em;
+}
+
+
+#mylives{
+  font-size:1.6em;
+  text-align:center;
+  display:block;
+}
+
+button{
+  color: black;
+  background-color: #ffffff;
+  border: solid 1px #00ffff;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:1.2em;
+  padding:18px 10px;
+  width:180px;
+  margin: 10px;
+  outline: none;
+}
+
+.active{
+    opacity: 100%;
+    background-color: darkgrey;
+}
